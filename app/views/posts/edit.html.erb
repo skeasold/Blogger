@@ -1,11 +1,10 @@
 <div class="container title_wrapper">
   <div class="row">
-    <div class="col-md-5 title text-left">
-      <h1><%= @post.title %></h1>
+    <div class="col-md-7 title text-left">
+      <h1>Edit <%= @post.title %></h1>
     </div>
-    <div class="col-md-7 text-right navbutton">
+    <div class="col-md-5 text-right navbutton">
       <%= link_to "Return to Blog", posts_path, :class => "btn btn-success" %>
-      <%= link_to "Edit Post", edit_post_path, :class => "btn btn-warning" %>
       <%= link_to "Remove Post", post_path(id: @post.id), :class => "btn btn-danger",
         data: {confirm: "Are you sure you want to remove this post?"}
       %>
@@ -13,11 +12,6 @@
   </div>
 </div>
 <div class="container posts_wrapper">
-  <div class="row">
-    <blockquote>
-      <%= @post.content %>
-      <footer>By <%= @post.created_by %> @ <%= @post.created_at %></footer>
-    </blockquote>
-  </div>
+  <%= render partial: 'addpost' %>
 </div>
 <%= render partial: 'footer' %>
