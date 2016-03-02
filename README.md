@@ -3,6 +3,7 @@
 Blogger is a simple blog app pre-loaded with Ipsum defaults.
 
   ![alt tag]( Blogger/screenshots/home.jpg )
+  ![Alt text](Blogger/screenshots/home.jpg?raw=true "Optional Title")
 
 
 Things you may want to cover:
