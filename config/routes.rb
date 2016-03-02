@@ -1,14 +1,16 @@
 Rails.application.routes.draw do
 
+  root 'posts#index'
+
   get '/' => 'posts#index', as: :posts
   get '/new' => 'posts#new', as: :new_post
   get '/:id' => 'posts#show', as: :post
+  post '/' => 'posts#create'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'posts#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
