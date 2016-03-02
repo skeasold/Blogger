@@ -22,3 +22,8 @@ rake db:seed
 
 ## Postkey
 A postkey was created to prevent the creation or edits of posts by blog viewers. Default postkey is '**bankroll**'. Postkey can be modified in the post.rb model. **Note: Postkey is not validated on post deletion.**
+
+## Planned Tasks
+- [ ] Switch from Bootstrap to Materialize
+- [ ] Add images to blog posts
+- [ ] Login for post create/edit/delete
