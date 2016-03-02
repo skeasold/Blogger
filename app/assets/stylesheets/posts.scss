@@ -1,32 +1,35 @@
-.row {
-  align-items: baseline;
-}
-h5 {
-  font-style: italic;
-  color: #95A5A6;
-}
 blockquote {
-  margin: 5px 15px 30px 15px;
+  margin: 5px 20px 30px 20px;
   padding: 10px 10px 10px 10px;
-  color: #34495E;
+  color: #575c60;
   font-size: 15px;
   text-align: justify;
 }
 h3 {
-  color: #2C3E50;
+  color: #454a4f;
   font-style: italic;
 }
 .posts_wrapper {
   width: 60%,
 }
-.header_wrapper {
-  background-color: #ECF0F1;
+.title_wrapper {
+  width: 80%;
+  margin-bottom: 20px;
 }
 footer {
   margin-top: 10px;
 }
 .footer_wrapper {
-  margin: 15px;
-  font-weight: bold;
-  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  text-align: center;
+  color: #2C3E50;
+}
+.title {
+  padding: 0px;
+  color: #373b3f;
+}
+.navbutton {
+  margin-top: 22px;
 }

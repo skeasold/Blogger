@@ -1,14 +1,14 @@
-<div class="header_wrapper">
+<div class="container title_wrapper">
   <div class="row">
-    <div class="col-md-6">
-      <h1>Blogger</h1>
+    <div class="col-md-8 title text-center">
+      <h1>What do the Ipsums say?</h1>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4 text-center navbutton">
       <%= link_to "New Blog Post", new_post_path, :class => "btn btn-success" %>
     </div>
   </div>
 </div>
-  <div class="container posts_wrapper">
+<div class="container posts_wrapper">
   <% @posts.each do |post| %>
     <div class="row">
       <h3><%= post.title %></h3>
@@ -17,12 +17,11 @@
     <div class="row">
       <blockquote>
         <%= post.content %>
-        <footer>By <cite title="Source Title"><%= post.created_by %> @ <%= post.created_at %></cite>
+        <footer>By <%= post.created_by %> @ <%= post.created_at %></footer>
       </blockquote>
     </div>
   <% end %>
 </div>
 <div class="container footer_wrapper">
   &copy; Skylar King 2016
-</div>
 </div>
