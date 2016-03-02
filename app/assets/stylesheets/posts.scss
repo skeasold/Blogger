@@ -1,4 +1,32 @@
-.header_nav {
-  margin-top: 22px;
-  margin-bottom: 10px;
+.row {
+  align-items: baseline;
+}
+h5 {
+  font-style: italic;
+  color: #95A5A6;
+}
+blockquote {
+  margin: 5px 15px 30px 15px;
+  padding: 10px 10px 10px 10px;
+  color: #34495E;
+  font-size: 15px;
+  text-align: justify;
+}
+h3 {
+  color: #2C3E50;
+  font-style: italic;
+}
+.posts_wrapper {
+  width: 60%,
+}
+.header_wrapper {
+  background-color: #ECF0F1;
+}
+footer {
+  margin-top: 10px;
+}
+.footer_wrapper {
+  margin: 15px;
+  font-weight: bold;
+  font-size: 12px;
 }

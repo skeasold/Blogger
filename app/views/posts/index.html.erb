@@ -1,41 +1,28 @@
-<div class="container">
+<div class="header_wrapper">
   <div class="row">
-    <div class="col-md-10">
-      <h1>Blog Posts</h1>
+    <div class="col-md-6">
+      <h1>Blogger</h1>
     </div>
-    <div class="col-md-2 header_nav">
+    <div class="col-md-6">
       <%= link_to "New Blog Post", new_post_path, :class => "btn btn-success" %>
     </div>
   </div>
-
-<table class="table">
-  <thead>
-    <tr>
-      <th>
-        Title
-      </th>
-      <th>
-        Content
-      </th>
-      <th>
-        Created At
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @posts.each do |post| %>
-      <tr>
-        <td>
-          <%= post.title %>
-        </td>
-        <td>
-          <%= post.content %>
-        </td>
-        <td>
-          <%= post.created_at %>
-        </td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+</div>
+  <div class="container posts_wrapper">
+  <% @posts.each do |post| %>
+    <div class="row">
+      <h3><%= post.title %></h3>
+      <hr>
+    </div>
+    <div class="row">
+      <blockquote>
+        <%= post.content %>
+        <footer>By <cite title="Source Title"><%= post.created_by %> @ <%= post.created_at %></cite>
+      </blockquote>
+    </div>
+  <% end %>
+</div>
+<div class="container footer_wrapper">
+  &copy; Skylar King 2016
+</div>
 </div>
