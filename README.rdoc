@@ -1,7 +1,12 @@
-== README
+== BLOGGER INTRO
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Blogger is a simple blog app pre-loaded with Ipsum defaults.
+
+<p align="center">
+  <img src="/screenshots/home.jpg" width="350"/>
+  <img src="/screenshots/posts.jpb" width="350"/>
+</p>
+
 
 Things you may want to cover:
 
