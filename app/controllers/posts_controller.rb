@@ -37,7 +37,6 @@ class PostsController < ApplicationController
 
   def delete
     @post = Post.find_by id: params[:id]
-    @post.destroy
-    redirect_to posts_path
+    @post.destroy ? (redirect_to posts_path) : (render :edit)
   end
 end

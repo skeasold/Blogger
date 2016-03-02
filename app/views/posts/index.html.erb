@@ -9,6 +9,9 @@
   </div>
 </div>
 <div class="container posts_wrapper">
+  <% if @posts.empty? %>
+    <p class="bg-warning noposts">The Ipsums have not created any blog posts.</p>
+  <% end %>
   <% @posts.each do |post| %>
     <div class="row">
       <h3><%= link_to "#{post.title}", post_path(id: post.id) %></h3>

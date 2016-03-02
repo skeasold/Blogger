@@ -11,7 +11,7 @@ h3 {
 }
 .posts_wrapper {
   width: 60%;
-  padding: 0;  
+  padding: 0;
 }
 .title_wrapper {
   width: 60%;
@@ -38,4 +38,10 @@ footer {
 }
 .row {
   margin: 0;
+}
+.noposts {
+  padding: 25px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 25px;
 }

@@ -6,7 +6,7 @@
     <div class="col-md-7 text-right navbutton">
       <%= link_to "Return to Blog", posts_path, :class => "btn btn-success" %>
       <%= link_to "Edit Post", edit_post_path, :class => "btn btn-warning" %>
-      <%= link_to "Remove Post", post_path(id: @post.id), :class => "btn btn-danger",
+      <%= link_to "Remove Post", post_path(id: @post.id), method: :delete, :class => "btn btn-danger",
         data: {confirm: "Are you sure you want to remove this post?"}
       %>
     </div>
