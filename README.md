@@ -15,10 +15,10 @@ rake db:migrate
 ```
 
 ## Ipsum Defaults
-Blogger comes with two default Ipsum blog posts. 
+Blogger comes with two default Ipsum blog posts. To load run:
 ```
 rake db:seed
 ```
 
 ## Postkey
-A postkey was created to prevent the creation or edits of posts by blog viewers. Default postkey is '**bankroll**'. Postkey can be modified in the post.rb model. **_Note: Postkey is not validated on post deletion. _**
+A postkey was created to prevent the creation or edits of posts by blog viewers. Default postkey is '**bankroll**'. Postkey can be modified in the post.rb model. **Note: Postkey is not validated on post deletion.**
