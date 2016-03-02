@@ -1,4 +1,14 @@
-<div class="container">
-  <h1>New Post</h1>
+<div class="container title_wrapper">
+  <div class="row">
+    <div class="col-md-8 title text-left">
+      <h1>New Post</h1>
+    </div>
+    <div class="col-md-4 text-right navbutton">
+      <%= link_to "Return to Blog", posts_path, :class => "btn btn-success" %>
+    </div>
+  </div>
 </div>
-<%= render partial: 'addpost' %>
+<div class="container posts_wrapper">
+  <%= render partial: 'addpost' %>
+</div>
+<%= render partial: 'footer' %>

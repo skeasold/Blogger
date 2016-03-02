@@ -1,9 +1,9 @@
 <div class="container title_wrapper">
   <div class="row">
-    <div class="col-md-8 title text-center">
-      <h1>What do the Ipsums say?</h1>
+    <div class="col-md-8 title text-left">
+      <h1>Inside the Ipsums</h1>
     </div>
-    <div class="col-md-4 text-center navbutton">
+    <div class="col-md-4 text-right navbutton">
       <%= link_to "New Blog Post", new_post_path, :class => "btn btn-success" %>
     </div>
   </div>
@@ -22,6 +22,4 @@
     </div>
   <% end %>
 </div>
-<div class="container footer_wrapper">
-  &copy; Skylar King 2016
-</div>
+<%= render partial: 'footer' %>

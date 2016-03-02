@@ -10,11 +10,13 @@ h3 {
   font-style: italic;
 }
 .posts_wrapper {
-  width: 60%,
+  width: 60%;
+  padding: 0;
 }
 .title_wrapper {
-  width: 80%;
+  width: 60%;
   margin-bottom: 20px;
+  padding: 0;
 }
 footer {
   margin-top: 10px;
@@ -32,4 +34,8 @@ footer {
 }
 .navbutton {
   margin-top: 22px;
+  padding: 0;
+}
+.row {
+  margin: 0;
 }
