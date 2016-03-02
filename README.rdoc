@@ -2,10 +2,7 @@
 
 Blogger is a simple blog app pre-loaded with Ipsum defaults.
 
-<p align="center">
-  <img src="/screenshots/home.jpg" width="350"/>
-  <img src="/screenshots/posts.jpb" width="350"/>
-</p>
+  ![alt tag]( Blogger/screenshots/home.jpg )
 
 
 Things you may want to cover:
